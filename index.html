@@ -56,8 +56,9 @@
             <p class="scope-note">Diseñado para consulta posterior del especialista. No reemplaza atención de emergencia ni vigilancia continua.</p>
           </div>
 
-          <div class="hero-visual" data-node-id="70:2983" aria-label="Vista previa de las experiencias de psicólogo y paciente">
-            <img class="visual-ellipse" src="assets/hero-ellipse.svg" alt="" aria-hidden="true">
+          <div class="hero-visual-stage">
+            <div class="hero-visual" data-node-id="70:2983" aria-label="Vista previa de las experiencias de psicólogo y paciente">
+              <img class="visual-ellipse" src="assets/hero-ellipse.svg" alt="" aria-hidden="true">
 
             <div class="laptop" aria-hidden="true">
               <div class="laptop-screen">
@@ -85,13 +86,14 @@
               </div>
             </div>
 
-            <div class="floating-badge review-badge">
-              <span class="badge-icon">✓</span>
-              <span><strong>Listo para revisar</strong><small>Información nueva organizada</small></span>
-            </div>
-            <div class="floating-badge patients-badge">
-              <span class="badge-icon">18</span>
-              <span><strong>Pacientes activos</strong><small>Seguimientos en curso</small></span>
+              <div class="floating-badge review-badge">
+                <span class="badge-icon">✓</span>
+                <span><strong>Listo para revisar</strong><small>Información nueva organizada</small></span>
+              </div>
+              <div class="floating-badge patients-badge">
+                <span class="badge-icon">18</span>
+                <span><strong>Pacientes activos</strong><small>Seguimientos en curso</small></span>
+              </div>
             </div>
           </div>
         </div>
@@ -104,13 +106,10 @@
           <p class="section-intro">Cada persona aporta información cuando corresponde y el especialista la revisa dentro de su práctica profesional.</p>
 
           <div class="steps-grid">
-            <article class="step-card"><span class="number">1</span><h3>El psicólogo invita</h3><p>Registra al paciente y envía una invitación segura para activar su cuenta.</p></article>
-            <span class="step-arrow" aria-hidden="true">→</span>
-            <article class="step-card"><span class="number">2</span><h3>El paciente registra</h3><p>Anota cómo se siente y, si lo desea, añade un comentario breve.</p></article>
-            <span class="step-arrow" aria-hidden="true">→</span>
-            <article class="step-card"><span class="number">3</span><h3>Se integran datos</h3><p>La pulsera aporta sueño, frecuencia cardiaca y actividad como contexto complementario.</p></article>
-            <span class="step-arrow" aria-hidden="true">→</span>
-            <article class="step-card"><span class="number">4</span><h3>El especialista revisa</h3><p>Consulta registros y episodios confirmados cuando corresponde, sin atención en vivo.</p></article>
+            <article class="step-card"><div class="step-heading"><span class="number">1</span><h3>El psicólogo invita</h3></div><p>Registra al paciente y envía una invitación segura para activar su cuenta.</p></article>
+            <article class="step-card"><div class="step-heading"><span class="number">2</span><h3>El paciente registra</h3></div><p>Anota cómo se siente y, si lo desea, añade un comentario breve.</p></article>
+            <article class="step-card"><div class="step-heading"><span class="number">3</span><h3>Se integran datos</h3></div><p>La pulsera aporta sueño, frecuencia cardiaca y actividad como contexto complementario.</p></article>
+            <article class="step-card"><div class="step-heading"><span class="number">4</span><h3>El especialista revisa</h3></div><p>Consulta registros y episodios confirmados cuando corresponde, sin atención en vivo.</p></article>
           </div>
         </div>
       </section>
@@ -170,10 +169,10 @@
           <p class="section-intro">Cada fuente mantiene su propia escala y significado. AliviaTech organiza el contexto; no convierte los datos en diagnósticos automáticos.</p>
 
           <div class="info-grid">
-            <article class="info-card"><span class="round-icon" aria-hidden="true">✎</span><h3>Registros manuales</h3><p>Estado de ánimo, ansiedad percibida y comentario opcional del paciente.</p></article>
-            <article class="info-card"><span class="round-icon symbol-icon" aria-hidden="true">⌚︎</span><h3>Datos de la pulsera</h3><p>Sueño, frecuencia cardiaca y actividad física como información complementaria.</p></article>
-            <article class="info-card"><span class="round-icon" aria-hidden="true">!</span><h3>Episodios confirmados</h3><p>Solo se muestran al especialista cuando el paciente confirma que ocurrió un episodio.</p></article>
-            <article class="info-card"><span class="round-icon" aria-hidden="true">▥</span><h3>Vista integrada</h3><p>Contexto reunido para revisar cuando corresponde, sin monitoreo continuo.</p></article>
+            <article class="info-card"><div class="info-heading"><span class="round-icon" aria-hidden="true">✎</span><h3>Registros manuales</h3></div><p>Estado de ánimo, ansiedad percibida y comentario opcional del paciente.</p></article>
+            <article class="info-card"><div class="info-heading"><span class="round-icon symbol-icon" aria-hidden="true">⌚︎</span><h3>Datos de la pulsera</h3></div><p>Sueño, frecuencia cardiaca y actividad física como información complementaria.</p></article>
+            <article class="info-card"><div class="info-heading"><span class="round-icon" aria-hidden="true">!</span><h3>Episodios confirmados</h3></div><p>Solo se muestran al especialista cuando el paciente confirma que ocurrió un episodio.</p></article>
+            <article class="info-card"><div class="info-heading"><span class="round-icon" aria-hidden="true">▥</span><h3>Vista integrada</h3></div><p>Contexto reunido para revisar cuando corresponde, sin monitoreo continuo.</p></article>
           </div>
         </div>
       </section>
@@ -217,9 +216,9 @@
             <article class="security-card">
               <h3>Seguridad y privacidad</h3>
               <dl class="security-list">
-                <div><dt><span>✓</span>Consentimiento informado</dt><dd>El paciente conoce qué información comparte y con qué finalidad.</dd></div>
-                <div><dt><span>✓</span>Acceso por rol</dt><dd>Cada experiencia muestra únicamente las funciones necesarias para su rol.</dd></div>
-                <div><dt><span>✓</span>Datos protegidos</dt><dd>La información de seguimiento se trata como información sensible y confidencial.</dd></div>
+                <div><dt><span aria-hidden="true">✓</span><span class="security-title">Consentimiento informado</span></dt><dd>El paciente conoce qué información comparte y con qué finalidad.</dd></div>
+                <div><dt><span aria-hidden="true">✓</span><span class="security-title">Acceso por rol</span></dt><dd>Cada experiencia muestra únicamente las funciones necesarias para su rol.</dd></div>
+                <div><dt><span aria-hidden="true">✓</span><span class="security-title">Datos protegidos</span></dt><dd>La información de seguimiento se trata como información sensible y confidencial.</dd></div>
               </dl>
             </article>
           </div>
